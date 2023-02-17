@@ -1,0 +1,29 @@
+###
+GET http://localhost:3500/class
+
+###
+GET http://localhost:3500/class/63ef48840fdf04fff5e41c6f
+
+###
+POST http://localhost:3500/class
+Content-Type: application/json
+
+{
+    "courseID": "CS50",
+    "name": "Web Programming",
+    "desc": "Learn Python and web development fundamentals in a project-based environment with HTML, CSS, JavaScript, and full-stack web development",
+    "day": "Saturday",
+    "time": "8:00pm - 10:00pm",
+    "tutor": "Bao Bao"
+}
+
+### 
+DELETE http://localhost:3500/class/63ef48840fdf04fff5e41c6f
+
+###
+PATCH http://localhost:3500/class/63ef48840fdf04fff5e41c6f
+Content-Type: application/json
+
+{
+    "count": 10
+}

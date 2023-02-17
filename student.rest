@@ -1,0 +1,27 @@
+###
+GET http://localhost:3500/student
+
+###
+GET http://localhost:3500/student/63ef4196e7a1c14e562459fd
+
+###
+POST http://localhost:3500/student
+Content-Type: application/json
+
+{
+    "name": "XiaoYing",
+    "class": ["A001","B001"],
+    "phone": "016-4881368"
+
+}
+
+### 
+DELETE http://localhost:3500/student/63ef4613fa382778db0bba90
+
+###
+PATCH http://localhost:3500/student/63ef464b1ac1c6828fe6d67e
+Content-Type: application/json
+
+{
+    "class": ["A012"]
+}
