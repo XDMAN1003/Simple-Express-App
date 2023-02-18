@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const express = require("express");
 const { route } = require('express/lib/application');
+const cors = require('cors')
 const app = express()
 const mongoose = require('mongoose');
 
@@ -12,6 +13,7 @@ const db = mongoose.connection
 db.on("error", (error) => console.error(error));
 db.prependOnceListener("open", ()=> console.log("Connected to Database"));
 
+app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {
