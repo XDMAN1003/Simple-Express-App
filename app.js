@@ -14,6 +14,10 @@ db.prependOnceListener("open", ()=> console.log("Connected to Database"));
 
 app.use(express.json())
 
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
 const classes = require("./routes/class");
 app.use('/class',classes)
 
