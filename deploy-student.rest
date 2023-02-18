@@ -1,0 +1,27 @@
+###
+GET https://express-app-av98.onrender.com/student
+
+###
+GET https://express-app-av98.onrender.com/student/63ef4196e7a1c14e562459fd
+
+###
+POST https://express-app-av98.onrender.com/student
+Content-Type: application/json
+
+{
+    "name": "CHE KHALID BIN AHMAD",
+    "class": ["PY01"],
+    "phone": "012-4768357"
+
+}
+
+### 
+DELETE https://express-app-av98.onrender.com/student/63efb07168f1fdd4190d8cf5
+
+###
+PATCH https://express-app-av98.onrender.com/student/63ef464b1ac1c6828fe6d67e
+Content-Type: application/json
+
+{
+    "class": ["A012"]
+}

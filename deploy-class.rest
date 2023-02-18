@@ -1,0 +1,69 @@
+###
+GET https://express-app-av98.onrender.com/class
+
+###
+GET https://express-app-av98.onrender.com/class/63ef48840fdf04fff5e41c6f
+
+###
+POST https://express-app-av98.onrender.com/class
+Content-Type: application/json
+
+{
+    "courseID": "ARD01",
+    "name": "Learn Arduino with Me",
+    "desc": "Explore the power of programming and electronics with our Arduino class!",
+    "day": "Sunday",
+    "time": "1:00pm - 3:00pm",
+    "tutor": "Hafiz"
+}
+
+### 
+DELETE https://express-app-av98.onrender.com/class/63f04f41b33a6368f1a31d30
+
+###
+PATCH https://express-app-av98.onrender.com/class/63ef48840fdf04fff5e41c6f
+Content-Type: application/json
+
+{
+    "count": 10
+}
+###
+PATCH https://express-app-av98.onrender.com/class/63f050e6b33a6368f1a31d3d
+Content-Type: application/json
+
+{
+    "desc": "Unleash your creativity with Python coding!"
+}
+
+
+# Discover the world of coding with Python!
+# Take your first step into coding with Python.
+# Python: The language of the future.
+# Build your future with Python.
+# Learn to code with Python: The versatile language.
+# Take your coding skills to the next level with Python.
+# Learn the fundamentals of coding with Python.
+# From novice to expert: Master Python coding.
+
+# "Build Your Own Website: Learn Web Coding From Scratch!"
+# "Unlock Your Web Design Potential: Sign Up for Our Coding Class"
+# "Get Hands-On Experience in Web Coding and Launch Your Dream Site"
+# "Become a Web Developer: Join Our Coding Class and Build a Better Future"
+# "Create Stunning Websites: Learn the Art of Web Coding with Our Expert Tutors"
+# "From HTML to CSS: Join Our Web Coding Class and Build a Better Tomorrow"
+# "Transform Your Web Design Skills: Join Our Expert-Led Coding Class Today"
+# "Join Our Web Coding Class and Learn How to Build Your Own Online Presence"
+
+# Discover the world of robotics and engineering with our Lego coding class - perfect for kids who love to build and learn.
+# Bring Legos to life with code! Our Lego coding class is the perfect place for kids to get creative and learn new skills.
+# Build, code, and explore with our Lego coding class - where imagination and innovation meet!
+
+# "Bring your electronics projects to life with our Arduino class!"
+# "Get hands-on experience with the world's most popular microcontroller in our Arduino class!"
+# "Ready to make some cool gadgets and gizmos? Join our Arduino class and start creating!"
+# "Unlock the full potential of your electronics projects with our Arduino class!"
+# "Learn how to code and control electronic devices in our exciting Arduino class!"
+# "Join our Arduino class and discover the limitless possibilities of coding and electronics!"
+# "Build, program, and bring your imagination to life with our Arduino class!"
+# "Become an expert in programming and electronics with our comprehensive Arduino class!"
+# "Take the first step in becoming a maker with our fun and informative Arduino class!"
